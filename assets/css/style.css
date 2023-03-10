@@ -8,12 +8,14 @@ header {
 }
 
 .pic-section {
+
 height: 200px;
 width: 100%;
 margin-bottom: 5px;
 background-image: url("https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg");
 background-size: cover;
 background-position: center;
+
 }
 
 h1 {
@@ -28,12 +30,18 @@ nav ul {
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    
+    padding-top: 100px;
+}
+
+nav li:hover {
+    background-color: black;
+    opacity: 0.5;
 }
 
 nav li {
     font-size: 25px;
     margin-left: 20px;
+    margin-bottom: 15px;
     
 
 }
@@ -70,11 +78,15 @@ p {
     display: flex;
     width: 576px;
     height: 475px;
-    border: 5px solid gray;
+    border: 5px solid blue;
     padding-bottom: 50px;
     background-image: url("https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.jpg?format=jpg&width=960");
     background-image: 20px;
-    
+    color: orange;
+}
+
+.card-large:hover {
+    opacity: 0.5;
 }
 
 .card-right {
@@ -82,7 +94,7 @@ p {
     flex-flow: row;
     width: 260px;
     height: 50px;
-    border: 5px solid gray;
+    border: 5px solid blue;
     margin-left: 320px;
     margin-top: 13px;
     background-image: url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202006/MIT-Evaluating-Performance_0-2.jpg?itok=8DR__Um9");
@@ -90,29 +102,39 @@ p {
        
 }
 
+.card-right:hover {
+    opacity: 0.5;
+}
+
 .card-left {
     display: flex;
     flex-flow: row;
     width: 260px;
     height: 50px;
-    border: 5px solid gray;
+    border: 5px solid blue;
     margin-top: -64px;
     margin-right: 30px;
     background-image: url("https://www.itcilo.org/sites/default/files/styles/fullscreen_image_small/public/courses/cover-images/A9715955.jpeg?h=fec1bf88&itok=Lr8B4Qew");
     color: orange;
-    
-
 }
+.card-left:hover {
+    opacity: 0.5;
+}
+
 .card {
     display: flex;
     flex-flow: row;
     width: 260px;
     height: 50px;
-    border: 5px solid gray;
+    border: 5px solid blue;
     margin-left: 320px;
     margin-top: 13px;
     background-image: url("https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=1390&crop=1");
     color: orange;
+}
+
+.card:hover {
+    opacity: 0.5;
 }
 
 .card-01 {
@@ -120,11 +142,14 @@ p {
     flex-flow: row;
     width: 260px;
     height: 50px;
-    border: 5px solid gray;
+    border: 5px solid blue;
     margin-top: -64px;
     background-image:url("https://www.computersciencedegreehub.com/wp-content/uploads/2023/02/shutterstock_535124956-scaled.jpg");
     color: orange;
+}
 
+.card-01:hover {
+    opacity: 0.5;
 }
 
 .section-title {
