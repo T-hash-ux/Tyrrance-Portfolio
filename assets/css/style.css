@@ -2,24 +2,33 @@ header {
     justify-content: space-between;
     display: flex;
     padding: 20px;
+    padding-top: 100px;
+    margin-bottom: -12px ;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: #142f9c;
+    background-color: purple;
     color: #ffffff;
+    flex-wrap: wrap;
 }
 
 .pic-section {
+
 height: 200px;
 width: 100%;
 margin-bottom: 5px;
 background-image: url("https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg");
 background-size: cover;
 background-position: center;
+flex-wrap: wrap;
+
 }
 
 h1 {
    padding: 10px; 
    display: inline-block;
-   font-size: 48px;   
+   font-size: 48px;
+   margin-top: -57px;
+   padding-top: -785px;
+   flex-wrap: wrap;   
 }
 
 
@@ -28,20 +37,32 @@ nav ul {
     justify-content: flex-end;
     align-items: center;
     list-style-type: none;
-    
+    padding-top: 10px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+}
+
+nav li:hover {
+    background-color: black;
+    opacity: 0.5;
 }
 
 nav li {
     font-size: 25px;
     margin-left: 20px;
-    
+    margin-bottom: 15px;
+    margin-top: -100px;
+    flex-wrap: wrap;   
 
 }
+
+
 
 h2 {
     font-size: 54px;
     text-decoration: dotted;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    flex-wrap: wrap;
 
 
 }
@@ -49,20 +70,42 @@ h2 {
 nav a {
     color: #ffffff;
     text-decoration: none;
+    flex-wrap: wrap;
 }
+
+.section-content {
+    display: inline-block;
+    margin-left: 400px;
+    flex-wrap: wrap;
+    padding-top: 10px;
+            
+}
+
 
 p {
     text-align: center;
-    border: 15px solid blue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: 10px solid purple;
     background-color: lightgray;
-    padding: 30px;
-    margin: 20px;
+    padding: 45px; 
+    border-radius: 20px;
+    font-size: 17px;  
+}
+
+img {
+
+    width: 400px;
+    height: auto;
+    margin-bottom: 100px;
+    padding-top: 30px;
+
 }
 
 .section-container {
     margin-top: 100px;
     display: inline-flex;
-    width: 100%;  
+    width: 100%; 
+    flex-wrap: wrap; 
 }
 
 
@@ -70,91 +113,114 @@ p {
     display: flex;
     width: 576px;
     height: 475px;
-    border: 5px solid gray;
+    border: 5px solid black;
     padding-bottom: 50px;
     background-image: url("https://imageio.forbes.com/blogs-images/forbestechcouncil/files/2019/01/canva-photo-editor-8-7.jpg?format=jpg&width=960");
     background-image: 20px;
-    
+    color: orange;
+    flex-wrap: wrap;
+}
+
+.card-large:hover {
+    opacity: 0.5;
 }
 
 .card-right {
     display: flex;
     flex-flow: row;
     width: 260px;
-    height: 50px;
-    border: 5px solid gray;
-    margin-left: 320px;
-    margin-top: 13px;
+    height: 65px;
+    border: 5px solid black;
+    margin-left: 289px;
+    margin-right: -500px;
+    margin-top: 10px;
+    padding-left: 5%;
     background-image: url("https://news.mit.edu/sites/default/files/styles/news_article__image_gallery/public/images/202006/MIT-Evaluating-Performance_0-2.jpg?itok=8DR__Um9");
     color: orange;
+    flex-wrap: wrap;
        
+}
+
+.card-right:hover {
+    opacity: 0.5;
 }
 
 .card-left {
     display: flex;
     flex-flow: row;
-    width: 260px;
-    height: 50px;
-    border: 5px solid gray;
-    margin-top: -64px;
-    margin-right: 30px;
+    width: 150px;
+    height: 65px;
+    border: 5px solid black;
+    margin-top: -75px;
+    margin-left: -1px;
+    padding-right: 21%;
     background-image: url("https://www.itcilo.org/sites/default/files/styles/fullscreen_image_small/public/courses/cover-images/A9715955.jpeg?h=fec1bf88&itok=Lr8B4Qew");
     color: orange;
-    
-
+    flex-wrap: wrap;
 }
+.card-left:hover {
+    opacity: 0.5;
+}
+
 .card {
     display: flex;
-    flex-flow: row;
+    flex-wrap: wrap;
     width: 260px;
-    height: 50px;
-    border: 5px solid gray;
-    margin-left: 320px;
-    margin-top: 13px;
+    height: 65px;
+    border: 5px solid black;
+    margin-left: 290px;
+    margin-right: 0px;
+    margin-top: 5px;
+    padding-left: 5%;
     background-image: url("https://techcrunch.com/wp-content/uploads/2015/04/codecode.jpg?w=1390&crop=1");
     color: orange;
+}
+
+.card:hover {
+    opacity: 0.5;
 }
 
 .card-01 {
     display: flex;
     flex-flow: row;
     width: 260px;
-    height: 50px;
-    border: 5px solid gray;
-    margin-top: -64px;
+    height: 65px;
+    border: 5px solid black;
+    margin-top: -74px;
+    margin-right: 0px;
+    padding-right: 2%;
     background-image:url("https://www.computersciencedegreehub.com/wp-content/uploads/2023/02/shutterstock_535124956-scaled.jpg");
     color: orange;
+}
 
+.card-01:hover {
+    opacity: 0.5;
 }
 
 .section-title {
     margin-bottom: -765px;
     margin-left: 30px;
-    width: 30%;   
-}
-
-
-
-.section-content {
-    display: inline-block;
-    margin-left: 100px;
-            
+    width: 30%;
+    flex-wrap: wrap;   
 }
 
 
 .text {
     margin-right: 10px;
     margin-left: 20px;
+    flex-wrap: wrap;
 }
 
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    flex-wrap: wrap;
 }
 
 footer {
     text-align: center;
 }
+
 footer h2 {
     display: inline-block;
     margin-right: 500px;
@@ -176,23 +242,10 @@ footer li {
     text-decoration: #142f9c;
     text-decoration: underline;
     word-spacing: 26px;
+    padding-left: 200px;
+    padding-top: 85px;
 }
 /* Used media Querying to make site adjustable to any device or screen */
-@media screen and (max-width: 768px) {
-    nav {
-      background-color: #bb8588;
-    }
-  }
+
+
   
-  
-  @media screen and (max-width: 576px) {
-    .sample-img {
-      background-color: #8ac4ff;
-    }
-  }
-
-
-
-
-
-
