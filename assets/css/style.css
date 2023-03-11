@@ -7,13 +7,14 @@ header {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: purple;
     color: #ffffff;
+    width: 100%;
     flex-wrap: wrap;
 }
 
 .pic-section {
 
 height: 200px;
-width: 100%;
+width: 120%;
 margin-bottom: 5px;
 background-image: url("https://www.agilitypr.com/wp-content/uploads/2020/02/technology-1-1.jpg");
 background-size: cover;
@@ -23,12 +24,18 @@ flex-wrap: wrap;
 }
 
 h1 {
+    display: flex;
    padding: 10px; 
    display: inline-block;
    font-size: 48px;
    margin-top: -57px;
    padding-top: -785px;
    flex-wrap: wrap;   
+}
+
+.nav {
+    display: inline;
+    margin-right: 20px;
 }
 
 
@@ -39,6 +46,7 @@ nav ul {
     list-style-type: none;
     padding-top: 10px;
     margin-bottom: 10px;
+    margin-left: 387px;
     flex-wrap: wrap;
 }
 
@@ -89,12 +97,13 @@ p {
     background-color: lightgray;
     padding: 45px; 
     border-radius: 20px;
-    font-size: 17px;  
+    font-size: 17px; 
+    width: 50%; 
 }
 
 img {
 
-    width: 400px;
+    width: 50%;
     height: auto;
     margin-bottom: 100px;
     padding-top: 30px;
@@ -245,7 +254,50 @@ footer li {
     padding-left: 200px;
     padding-top: 85px;
 }
-/* Used media Querying to make site adjustable to any device or screen */
 
+@media screen and (max-width: 992px) {
+    .card {
+      width: 199px;
+
+    }
+    /* Change the header color */
+    header {
+      background: #772014;
+    }
+  }
+
+  @media screen and (max-width: 992px) {
+    .card-right {
+        width: 199px;
+    }
+    
+  }
+  /* Cards are stacked on top of each other at 768px or smaller */
+  @media screen and (max-width: 992px) {
+    .card-01 {
+      width: 199px;
+    }
+    /* Change the header color */
+    header {
+      background: #8ac4ff;
+    }
+/* Used media Querying to make site adjustable to any device or screen */
+  }
+@media screen and (max-width: 567px) {
+    img {
+        width: 25%;
+    }
+}
+@media screen and (max-width: 992px) {
+    p {
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 992px) {
+    .card-large {
+        width: 345px;
+    }
+}
+    
 
   
