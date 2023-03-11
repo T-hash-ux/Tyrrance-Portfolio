@@ -10,13 +10,18 @@ This is a portfolio website project designed to display my work and showcase my 
 
 
 ## Usage
+About me: Giving some background information about me and my interest in being a web developer and gaining skills applicable to the tech job market.
+
+Projects: This is where my portfolio will be displayed.
+
+Contact: This section share my contact information as we as my github link.
 
 
 ## Credits
 Tyrrance Miller
 Matthew Lomard
 Sarah Miller
-Christopher Snyh
+Christopher Snyder
 
 ## License
 
